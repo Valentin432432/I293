@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Cellules fusionnées</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            margin: 20px auto;
+            font-family: Arial, sans-serif;
+        }
+
+        td {
+            border: 1px solid black;
+            padding: 10px 20px;
+            text-align: center;
+            width: 100px;
+            height: 40px;
+        }
+
+        .header {
+            font-weight: bold;
+        }
+
+        .merged {
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr class="header">
+            <td>X</td>
+            <td colspan="3">POLICE=ARIAL</td>
+            <td>X</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>7</td>
+            <td>8</td>
+            <td>9</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>X</td>
+            <td colspan="3" class="merged">Cellules fusionnées</td>
+            <td>X</td>
+        </tr>
+    </table>
+</body>
+</html>
